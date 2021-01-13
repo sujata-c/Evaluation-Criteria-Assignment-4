@@ -10,9 +10,11 @@ def menu():
 
     return choice
 # xrange
-# string unicode
-# Python 2 only
-# class Upper(object):
+# divsion
+# round
+# input
+# exception
+# print
 
 if __name__ == '__main__':
 
@@ -23,14 +25,14 @@ if __name__ == '__main__':
             for i in xrange(0,count):           # 2only
                 Celsius = int(raw_input("Enter a temperature in Celsius: "))
                 Fahrenheit = 9.0 / 5.0 * Celsius + 32
-                print "Temperature: Celsius", Celsius , "Fahrenheit: ", Fahrenheit
+                print "Temperature: Celsius", round(Celsius) , "Fahrenheit: ", round(Fahrenheit)
 
         elif choice == 2:
             count = int(raw_input("How many temperature conversions?"))
             for i in xrange(0, count):
                 Fahrenheit = int(raw_input("Enter a temperature in Fahrenheit: "))
                 Celsius = Fahrenheit - 32 / 1.8000
-                print "Temperature: Celsius", Celsius , "Fahrenheit: ", Fahrenheit
+                print "Temperature: Celsius", round(Celsius) , "Fahrenheit: ", round(Fahrenheit)
         else:
             print "Try Again!!"
 
