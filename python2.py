@@ -9,12 +9,6 @@ def menu():
         choice = 0
 
     return choice
-# xrange
-# divsion
-# round
-# input
-# exception
-# print
 
 if __name__ == '__main__':
 
