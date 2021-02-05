@@ -9,10 +9,6 @@ def menu():
         choice = 0
 
     return choice
-# xrange
-# string unicode
-# Python 2 only
-# class Upper(object):
 
 if __name__ == '__main__':
 
